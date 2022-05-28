@@ -1,0 +1,51 @@
+.select-box {
+  max-width: 375px;
+  margin: 0 auto;
+}
+
+.App {
+  padding: 8rem;
+}
+
+.movie-details-wrap {
+  padding: 35px 15px;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 992px;
+  margin: 0 auto;
+  align-items: flex-start;
+}
+.movie-name-details {
+  width: 60%;
+  padding-right: 60px;
+}
+
+.movie-name-details h6 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.movie-cast-details {
+  width: 40%;
+  background: #fff;
+  box-shadow: 0 0 30px rgb(0 0 0 / 10%);
+  border-radius: 10px;
+  padding: 18px;
+}
+
+.movie-cast-details h6 span {
+  opacity: 0.6;
+}
+
+@media screen and (max-width: 768px) {
+  .App {
+    padding: 1rem;
+  }
+  .movie-name-details {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .movie-cast-details {
+    width: 100%;
+  }
+}
